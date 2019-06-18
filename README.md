@@ -60,3 +60,4 @@ git clone https://github.com/billryan/resume.git --branch zh_CN --depth 1 --sing
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
 Copyrighted fonts are not subjected to this License.
+# CV
