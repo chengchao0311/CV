@@ -1,0 +1,154 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{陈鑫琦}
+
+\basicInfo{
+  \email{chengchao0311@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 186-6537-8207}
+}
+ 
+\section{\faHistory\ 自我描述}
+\begin{onehalfspacing}
+5年iOS开发经验,上架过多个App,带领过的开发团队,有丰富的开发经验
+\end{onehalfspacing}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+
+\item 熟练使用Objective-C,熟悉Swift,了解Dart, 开发iOS前有一年Android开发经验
+\item 熟悉iOS各生命周期,熟悉响应链, Runloop原理和多手势处理
+\item 熟练使用UIKit和第三方框架Texture(ASDK)搭建UI界面,了解Flexbox布局算法
+\item 熟悉GCD,NSOperation,NSThread等线程控制API,了解不同锁性能差异
+\item 熟悉Runtime原理,方法查找流程,了解KVO和KVC原理,Block原理
+\item 熟悉常用的设计模式以及MVC,MVVM+RAC函数式响应编程(ReactiveCocoa)
+\item 熟悉Objective-C内存原理,MRC和ARC开发,了解AutoreleasePool原理, 能使用Instruments等工具进行内存泄漏的检查
+IQKeyboardManager,MJRefresh等；
+\item 熟悉Webview和WKWebview, 与H5混合开发, 能编写组件给React Native调用,也能编写简单的HTML页面和简单的Flutter页面
+\item 熟悉常用通信协议：HTTP、TCP/IP等, 对象序列化常用方式：JSON、XML
+\item 熟悉RSA非对称加密方式, AES/3DES对称加密, Base64编码, MD5摘要算法
+\item 熟悉App打包,上架,审核等流程,能提前根据Review Guidelines对需求提出意见
+\item 熟悉Unit Test(XCTest+OCMock)和UI Test,能编写自动化测试代码
+\item 开发工具：Xcode, Mac OS X, 常用框架: SDWebImage,YYModel, AFNetworking, ReactiveCocoa, Texture,Masonry
+\item 熟悉Git,写过自动打包上传脚本,有良好的Markdown编写文档习惯
+
+\end{itemize}
+
+\section{\faHistory\ 工作经历}
+\datedsubsection{\textbf{深圳四方精创资讯股份有限公司} }{2014年3月 -- 2019年3月}
+\role{iOS负责人}{}
+\begin{itemize}
+  \item iOS组负责人,管理20人左右的iOS开发团队
+  \item 负责开发公共组件,在团队内统一编码规范,人员培训和Code Review
+  \item 带领团队为中国银行, 中国农业银行, 香港东亚银行, 香港永亨银行开发多款移动端App
+  \item 负责项目的管理,需求确认,参与技术方案设计,项目任务安排和进度控制,配合SIT和UAT测试等工作
+\end{itemize}
+
+\datedsubsection{\textbf{深圳百乐科技商行} }{2012年09月 -- 2014年03月}
+\role{iOS,Android开发}{}
+\begin{itemize}
+  \item 负责iOS 与Android应用开发, 偶尔开发php API供App调用
+  \item 开发百乐商城iOS端和商城内部管理应用(企业证书发布)
+  \item Android使用Eclipse+Java进行开发,为台湾PWWedding公司开发过一款婚庆类日历应用,涉及广播机制,SQLite和GCM
+\end{itemize}
+
+\datedsubsection{\textbf{深圳赋迪税务师事务所有限公司} }{2009年07月 -- 2012年09月}
+\role{网站管理}{}
+\begin{itemize}
+  \item 负责php网站维护,HTML/CSS开发
+\end{itemize}
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{乐寻坊}}{2018年3月 -- 2019年3月}
+\role{项目主管,iOS开发}{前期主要为iOS开发,项目第一版上线后兼任项目管理}
+\begin{onehalfspacing}
+乐寻坊是基于区块链的人才活动平台,为人才社群提供公益互助及企业招聘、论坛会议、学习培训等活动服务。(乐寻坊是四方精创公司的子公司, 该项目为公司内部创业项目)  
+\begin{itemize}
+  \item 独立iOS端开发,从苹果开发帐号的申请,产品功能的实现,到产品App Store的上线发布
+  \item 使用CoreAnimation开发采蜜蜂游戏,使用Texture开发简历填写界面,开发拍照和照片选择上传模块(支持H5交互调用),官方消息推送,分享等功能开发
+  \item 与后台共同设计接口，设计和编写App与H5交互文档
+  \item 负责项目管理，在13人的跨职能团队中推行敏捷开发
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{中银香港App开发（MBK）}}{2016 年3月 -- 2017年12月}
+\role{移动端负责人}{主要负责需求分析,技术方案设计,任务分配,开发公共组件给业务开发调用}
+\begin{onehalfspacing}
+  该项目为中国银行香港分行的网上银行App,涉覆盖银行,保险,按揭贷款,家佣等各个业务。各业务也有独立的App, 支持从MBK跳转进入, 该项目以H5混合开发为主，
+  App负责编写部分常用页面，提供各种硬件调组件，涉及URL Scheme，消息推送，指纹解锁，人脸识别(faceid)，二维码等功能
+\begin{itemize}
+  \item 按照需求，配合后台接口开发了通用的启动流程，涉及版本检查，设备黑名单，设备越狱检查，HTTPS校验部分;
+  \item 由于银行内部存在多种网络协规范，导致各App中的网络部分代码使用混乱,为了解决这一问题,我封装了一个基于NSURL Session和代理模式网络框架，
+  支持可配置的数据加密和签名，管理公共请求参数，支持串行和并行事务请求，自动解析数据到模型，token刷新和请求重发机制，响应结果过滤.最终在各个业务App间将网络部分编码方式进行了统一
+  \item 开发文件上传SDK,文件使用分片上传,并支持断点续传
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{Spreadit}}{2017年3月 -- 2017年9月}
+\role{项目负责人}{}
+\begin{onehalfspacing}
+Spread-it将facebook和instagram上的的网络红人（大学生和家长）与品牌联系起来。网络红人们可以选择广告品牌,展示广告获取佣金,与他们真正喜欢的品牌合作。    
+\begin{itemize}
+  \item 负责活动列表和详情模块开发,使用Swift进行开发,使用FMDB离线保存用户活动信息
+  \item 负责iOS和Android版本发布和香港应用市场的上架, 针对iOS上架时遇到的审核问题,多次和苹果审核人员沟通,最终成功上架
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{香港东亚银行 BEA App 2.0}}{2015年4月 -- 2015年12月}
+\role{项目负责人}{负责组织人员对项目进行重构,负责设计重构方案, 编写单元测试和自动化测试代码, 组织进行Code Review，配合银行业务人员进行UAT测试}
+\begin{onehalfspacing}
+  该项目为香港东亚银行的网上银行,  包括各种网上银行相关的业务,  当时由于开发时间较早, 到2015年时架构已经比较过时,  我们主要负责对其项目进行大规模重构。    
+\begin{itemize}
+  \item 负责设计重构方案,组织iOS开发人员进行重构, 编写单元测试和自动化测试代码, 组织进行Code Review，配合银行业务人员进行UAT测试。
+  \item 使用XCTestCase和OCMock覆盖业务, 使用UI Test对核心流程进行自动化测试, 大大减少了Bug出现的机率, 加快了测试效率,项目最终如期完成2.0改版。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{第e律师}}{2015 年04月 -- 2015年09月}
+\role{iOS开发}{负责开发商户端和公共模块}
+\begin{onehalfspacing}
+第e律师是一个与滴滴打车类似的帮助用户找到合适律师的项目,分为律师端和用户端,律师可以通过律师端发布自己的信息,与用户聊天提供咨询服务,获得律师费。用户可以通过用户端发布自己的法律求助,与律师聊天沟通。     
+\begin{itemize}
+  \item 负责用户端订单部分,律师端和用户端公共部分的开发.在开发聊天页面的过程中,出现了多种不同类型的的Cell导致UITableview滑动时有一些卡顿的问题,
+  最终我通过在模型中使用懒加载提前计算TableView的高度,将cell设置为不透明等方式解决
+  \item 收到用户反馈,偶尔会有App崩溃的问题.经过使用日志调试,发现是由于OOM时ViewController因为使用了weakself被系统释放了,最后通过weakself配合strongself方式解决
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{中银网络通宝}}{2014 年07月 -- 2014年10月}
+\role{iOS开发}{负责开发核心模块}
+\begin{onehalfspacing}
+为中国银行深圳支行企业iPad app, 用于个贷客户经理采集贷款用户信息,拍照取证到银行内进行贷款自动审核。     
+\begin{itemize}
+  \item 负责iOS核心拍照,提交审核功能的开发.开发文件上传部分时,由于文件服务器采用FTP,但是苹果官方提供的API(CFFTPStream)对FTP操作比较基础,不支持FTP断点续传等操作.
+  我通过学习FTP协议知识,了解到FTP实际使用20和21两个端口传输数据和控制信息,结合GCDAsynSocket最终实现FTP文件批量上传,下载和断点续传
+\end{itemize}
+\end{onehalfspacing}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{北京工商大学嘉华学院}}{2005 -- 2009}
+\textit{学士}\ 国际经济与贸易(因大学上计算机选修课表现较好,后自学编程)
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item GitHub: https://github.com/chengchao0311/
+  \item 语言: 英语 - 熟练(CET6)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
